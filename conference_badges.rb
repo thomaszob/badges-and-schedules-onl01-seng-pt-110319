@@ -20,3 +20,14 @@ def assign_rooms(array)
   }
   newArray
 end 
+
+def printer(array)
+  
+  batch_badge_creator(array).each{|person|
+    puts person
+  }
+  
+  assign_rooms(array).each{|room|
+    puts room
+  }
+end 
